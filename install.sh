@@ -129,7 +129,7 @@ REPLACE="
 print() {
   ui_print ""
   ui_print "Bharat OS (BharOS) BootAnimation by @hey_cepheus"
-  ui_print ""
+  ui_print "installing...."
 }
 
 on_install() {
@@ -153,7 +153,7 @@ ui_print " This Looks like non supported Rom... Report in support group @magiboo
 exit 1;
 fi
 ui_print ""
-ui_print " [*] Done!"
+ui_print " [*] Completed:⁠0!"
 ui_print ""
 
 # Only some special files require specific permissions
